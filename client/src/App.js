@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Board from './Board';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -18,7 +19,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-      <p>Success</p>
+          <Board/>
       </Router>
     );
   }
